@@ -13,14 +13,8 @@ Push Buttons <br />
 
 # Features 
 #### Stop Watch counting should start once the power is connected to the MCU.<br />
-#### Configure External Interrupt INT0 with falling edge. Connecting a push button with the
-internal pull-up resistor. If a falling edge detected the Stop Watch time should be
-reset.<br />
-#### Configure External Interrupt INT1 with raising edge. Connecting a push button with the
-external pull-down resistor. If a raising edge detected the Stop Watch time should be
-paused.<br />
-#### Configure External Interrupt INT2 with falling edge. Connecting a push button with the
-internal pull-up resistor. If a falling edge detected the Stop Watch time should be
-resumed.<br />
+#### Configure External Interrupt INT0 with falling edge. Connecting a push button with the internal pull-up resistor. If a falling edge detected the Stop Watch time should be reset.<br />
+#### Configure External Interrupt INT1 with raising edge. Connecting a push button with theexternal pull-down resistor. If a raising edge detected the Stop Watch time should be paused.<br />
+#### Configure External Interrupt INT2 with falling edge. Connecting a push button with the internal pull-up resistor. If a falling edge detected the Stop Watch time should be resumed.<br />
 # Snaps 
 ![9-23-2022 (06-17-52)](https://user-images.githubusercontent.com/85132939/191891352-7779b192-1d7d-4267-bc39-f7f45b36f533.gif)
