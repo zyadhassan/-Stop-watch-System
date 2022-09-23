@@ -8,18 +8,18 @@ AVR Processor ( Atmega32 Microcontroller) <br />
 Push Buttons <br />
 
 # Connections 
-Connecting the six 7-segments in the project using the multiplexed technique.<br />
-We can connect more than one 7-segment display by using the Multiplexing method. In this method, at a time one 7-segment display is driven by the Microcontroller and the rest are OFF. It keeps switching the displays using transistors. Due to the persistence of vision, it appears as a normal display.<br />
+#### Connecting the six 7-segments in the project using the multiplexed technique.<br />
+#### We can connect more than one 7-segment display by using the Multiplexing method. In this method, at a time one 7-segment display is driven by the Microcontroller and the rest are OFF. It keeps switching the displays using transistors. Due to the persistence of vision, it appears as a normal display.<br />
 
 # Features 
-Stop Watch counting should start once the power is connected to the MCU.<br />
-Configure External Interrupt INT0 with falling edge. Connecting a push button with the
+#### Stop Watch counting should start once the power is connected to the MCU.<br />
+#### Configure External Interrupt INT0 with falling edge. Connecting a push button with the
 internal pull-up resistor. If a falling edge detected the Stop Watch time should be
 reset.<br />
-Configure External Interrupt INT1 with raising edge. Connecting a push button with the
+#### Configure External Interrupt INT1 with raising edge. Connecting a push button with the
 external pull-down resistor. If a raising edge detected the Stop Watch time should be
 paused.<br />
-Configure External Interrupt INT2 with falling edge. Connecting a push button with the
+#### Configure External Interrupt INT2 with falling edge. Connecting a push button with the
 internal pull-up resistor. If a falling edge detected the Stop Watch time should be
 resumed.<br />
 # Snaps 
